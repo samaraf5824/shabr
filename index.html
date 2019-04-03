@@ -17,33 +17,121 @@
     <!--custom-->
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Sree+Krushnadevaraya|ZCOOL+XiaoWei" rel="stylesheet">
     <script src="script.js"></script>
+
 </head>
 <style>
-     #balloon3 {
+    html, body {
+      width: 100%;
+      height: 90%;
+    }
+    
+    
+     #landing {
       display: table;
       width: 100%;
       height: 100%;
       background: linear-gradient(
-        rgba(0,0,0,0.9),
-        rgba(0,0,0,0.1)
+        rgba(0,0,0,0),
+        rgba(0,0,0,0)
       ),
-        url('balloon-3.jpg') no-repeat center;
+       
+  url('img/balloon-3.jpg') no-repeat center;
       background-size: cover;
     
      }
-
+     h1{
+     font-family: 'ZCOOL XiaoWei', serif;
+      font-size: 40px;
+      color:white;
+     }
+   h2{
+       font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        color:white;
+     }
+    h3{
+       font-family: 'Sree Krushnadevaraya', serif;
+        font-size: 20px;
+        color:white;
+     }
+     
+   
+     /* sm+ */
+    @media(min-width:768px)
+    {
+  h1 {
+      font-size: 80px;
+      color:white;
+    }
+       h2 {
+      font-size: 40px;
+      color:white;
+     }
+     h3 {
+      font-size: 40px;
+      color:white;
+     }
+    }
+    
+    /* md+ */
+    @media(min-width:992px)
+     {
+   h1 {
+      font-size: 100px;
+      color:black;
+   }
+       h2 {
+      font-size:80px;
+      color:black;
+       }
+        h3 {
+      font-size:80px;        
+      color:black;
+       }
+    }
+     /* lg */
+    @media(min-width:1200px)
+     {
+   h1 {
+      font-size: 200px;
+     color:black;
+    }
+       h2 {
+      font-size:160px;
+     color:black;
+     }
+      h3 {
+      font-size:160px;
+     color:black;
+     }
+    }
 </style>
 <body>
- 
-  <header id="balloon3">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SHABR</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Info</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  <header id='landing'>
     <div class="text-vertical-center">
-      <h1>SHABR
-</h1>
+      <h1>SHABR</h1>
       <h2>Skydance Hot Air Balloon Rides</h2>
       <h3>Ride with the wind.</h3>
       <h3>Dance with the sky.</h3>
     </div>
+  <br><br>
+  
   </header>
 </body>
 
