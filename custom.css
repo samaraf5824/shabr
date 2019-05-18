@@ -22,10 +22,6 @@
   color: black;
  }
 
- img {
-  width: 20%;
- }
-
 
  .jumbotron {
   margin-top: 0px;
@@ -65,7 +61,10 @@
   color: white;
   text-align: center;
  }
-
+img {
+  width: 20%;
+  padding:5px;
+ }
 
  /* sm+ */
 
@@ -81,6 +80,10 @@
    font-size: 40px;
 
   }
+  img {
+  width: 20%;
+  padding:10px;
+ }
  }
 
  /* md+ */
@@ -99,6 +102,10 @@
    font-size: 60px;
 
   }
+   img {
+  width: 20%;
+  padding:15px;
+ }
  }
 
  /* lg */
@@ -116,9 +123,11 @@
    font-size: 0px;
 
   }
-  img {
-   width: 30%;
-  }
+   img {
+  width: 20%;
+  padding:20px;
+ }
+ }
   .text-vertical-center {
    text-align: center;
    vertical-align: middle;
